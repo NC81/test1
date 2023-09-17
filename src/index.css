@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sort-icon {
+  width: 12px;
+}
+
+.ascending {
+  transform: rotate(180deg);
+}
+
+.table-top,
+.table-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.table-header {
+  cursor: pointer;
+  user-select: none;
+}
+
+.table-header span {
+  padding-right: 3px;
+}
+
+.sorted {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+tbody tr:hover {
+  background-color: #dbdbdb;
+}
+
+.row-even {
+  background-color: #efefef;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.active-page,
+.active-page:hover {
+  background-color: grey;
+  color: white;
+}
